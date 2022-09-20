@@ -52,3 +52,14 @@ ol li, ul li {
     font-weight: lighter;
     font-size: 18px;
 }
+
+article {
+    width: 60%;
+    padding-right: 80px;
+    display: inline-block;
+}
+
+aside {
+    width: 30%;
+    display: inline-block;
+}
