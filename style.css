@@ -4,10 +4,13 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-header {
+/* Requisito Obrigatório 02 */
+#cabecalho {
+    position: fixed;
     top: 0;
 }
 
+/* Requisito Obrigatório 03 */
 #minha_foto {
     block-size: 300px;
 }
