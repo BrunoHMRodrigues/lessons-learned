@@ -7,3 +7,7 @@ body {
 header {
     top: 0;
 }
+
+#minha_foto {
+    block-size: 300px;
+}
