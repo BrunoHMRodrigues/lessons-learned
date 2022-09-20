@@ -8,6 +8,12 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+
+    /* Requisito Bônus 03 */
+    font-family:monospace;
+    font-size:  24px;
+    color: rgb(11, 11, 48);
+
 }
 
 /* Requisito Obrigatório 03 */
@@ -19,11 +25,30 @@ body {
     border: 20px solid rgb(15, 13, 43);
 }
 
+section {
+    /* Requisito Obrigatório 03 */
+    line-height: 28px;
+}
+
 section ol {
     display: inline-block;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+
+    /* Requisito Bônus 02 - margin*/
     margin-right: 60px;
 }
 
 section ul {
     display: inline-block;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;    
+}
+
+ol li, ul li {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 18px;
 }
