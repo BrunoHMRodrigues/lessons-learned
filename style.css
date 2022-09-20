@@ -13,4 +13,17 @@ body {
 /* Requisito Obrigatório 03 */
 #minha_foto {
     block-size: 300px;
+
+    /* Requisito Bônus 02 - padding e border*/
+    padding: 10px;
+    border: 20px solid rgb(15, 13, 43);
+}
+
+section ol {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+section ul {
+    display: inline-block;
 }
